@@ -1,2 +1,2 @@
 # momentum-clone
-Chrome momentum clone project using Vanilla JS
+Learning Vanilla JS by building Chrome momentum clone.
