@@ -6,7 +6,6 @@ function GeoOk(position){
     fetch(url)
       .then((response)=> response.json())
       .then((data)=>{
-        console.log(data)
         const city = document.querySelector("#weather span:first-child");
         const weather = document.querySelector("#weather span:last-child");
         city.innerText = data.name;
