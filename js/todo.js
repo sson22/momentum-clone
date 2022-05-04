@@ -16,7 +16,7 @@ function deleteToDo(event){
     //Detect which button was clicked and fetch information of the item needs to be deleted
     const li = event.target.parentElement;
     li.remove();
-    //Update toDos array to update local storage
+    //Update toDos array and update local storage
     toDos = toDos.filter((item)=>item.id !== parseInt(li.id));
     saveTodos();
 }
